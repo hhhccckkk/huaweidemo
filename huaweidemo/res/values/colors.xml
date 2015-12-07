@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="text_333">#333333</color>
+    <color name="text_66">#666666</color>
+    <color name="huise">#e0e0e0</color>
+    <color name="red">#d02e2b</color>
+    <color name="qian_re">#fd9317</color>
+     <color name="order_color">#323232</color>
+      <color name="order_red">#ec3633</color>
+      <color name="menu_left_bg">#323232</color>
+      <color name="home_red">#e83936</color>
+
+</resources>

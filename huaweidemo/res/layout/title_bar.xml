@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:background="#252c32" >
+
+    <ImageView
+        android:layout_gravity="left"
+        android:id="@+id/titleBackBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingLeft="17dp"
+        android:paddingRight="10dp"
+        android:src="@drawable/top_icon_menu" />
+
+    <TextView
+        android:text="首页"
+        android:textColor="@color/white"
+        android:id="@+id/titleCenterTV"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxWidth="200dp"
+        android:singleLine="true"
+        android:textSize="18sp" />
+    
+     <ImageView
+         android:visibility="gone"
+        android:layout_gravity="right|center_vertical"
+        android:id="@+id/right_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="17dp"
+        android:paddingRight="10dp"
+        android:src="@drawable/icon_uesr" />
+
+</FrameLayout>
